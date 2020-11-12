@@ -1,0 +1,633 @@
+
+/* banner start here */
+
+
+.banner{
+    
+    background-image: url('../images/anime-wallpaper-200528184938121920x1080.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blur{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.mid{
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    padding: 50px 0px;
+}
+
+.header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+
+.menu ul{
+    text-align: right;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.menu ul li a:hover{
+    background-color: #eb7d4b;
+}
+
+
+
+
+.banner-content{
+    text-align: center;
+    padding: 100px 0px 180px 0px;
+}
+
+.banner-content span{
+    display: block;
+}
+
+.banner-content h2{
+   font-size: 42px;
+   color: white; 
+}
+.banner-content a{
+   display: inline-block;
+   padding: 20px 80px;
+   background-color: #eb7d4b;
+   color: white;
+   text-transform: uppercase;
+   font-weight: 600;
+   border-radius: 5px;
+   margin-top: 50px;
+   border-bottom: 4px solid #b45b31;
+   font-size: 18px;
+}
+
+
+/* banner stop here */
+
+/* start service style */
+
+
+.service{
+    background-color: #17c2a4;
+    padding: 100px 0px;
+}
+
+.service::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.service h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.service hr{
+    border: none;
+    height: 4px;
+    background-color: #14a58c;
+    width: 80px;
+    margin: 20px auto;
+}
+
+.service p{
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.service-area{
+    margin: 70px 0;
+}
+
+.service-box{
+    width: 25%;
+    float: left;
+}
+
+.service-box img{
+    display: block;
+    margin: auto;
+}
+
+.service-box h3{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.service-box p{
+    width: 80%;
+    font-size: 16px;
+    line-height: 22px;
+    
+}
+
+/* stop service style */
+
+
+/* start team style */
+.our-team{
+    padding: 100px 0px;
+    background-color: #e7f1f8;
+}
+
+.our-team h2{
+    text-align: center;
+    color: #3c4761;
+    font-size: 40px;
+}
+
+.our-team hr{
+    border: none;
+    height: 4px;
+    background-color: #c8d9e5;
+    width: 80px;
+    margin: 20px auto;
+}
+.our-team p{
+    text-align: center;
+    color: #3c4761;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+.our-team .team-area{
+    margin: 50px 0px;
+}
+
+.team-area::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.team-box img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+.team-box{
+    width: 25%;
+    float: left;
+}
+
+.team-box h3{
+    color: #3c4761;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 30px 0 5px 0px;
+}
+.team-box h4{
+    color: #30bae7;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px 0 20px 0px;
+    font-weight: normal;
+}
+
+.team-box p{
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    color: #3c4761;
+    line-height: 22px;
+}
+
+.social{
+    margin-top: 20px;
+}
+
+.social ul{
+    text-align: center;
+}
+.social ul li{
+    display: inline-block;
+}
+.social ul li a{
+    display: block;
+    padding: 8px;
+    background-color: #bdd1df;
+    color: white;
+    border-radius: 50%;
+
+    font-size: 16px;
+    height: 16px;
+    width: 16px;  /*these equals height weight are for making icon perfectly round*/
+    line-height: 16px;
+}
+
+
+
+/* stop team style stop */
+
+
+/* skill section style start */
+
+.skill{
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.skill h2{
+    text-align: center;
+    color: #3c4761;
+    font-size: 40px;
+}
+
+.skill hr{
+    border: none;
+    height: 4px;
+    background-color: #c8d9e5;
+    width: 80px;
+    margin: 20px auto;
+}
+.skill p{
+    text-align: center;
+    color: #3c4761;
+    width: 55%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.skills-area{
+    margin-top: 50px;
+}
+
+.skills-area::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.skill-box{
+    width: 25%;
+    float: left;
+}
+
+.skill-box img{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.skill-box h3{
+    text-align: center;
+    color: #3c4761;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+
+/* skill section style stop */
+
+
+/* portfolio start here */
+.portfolio{
+    padding: 100px 0;
+    background-color: #ffdd99;
+}
+
+.portfolio h2{
+    text-align: center;
+    color: #3c4761;
+    font-size: 40px;
+}
+
+.portfolio hr{
+    border: none;
+    height: 4px;
+    background-color: #e5c37f;
+    width: 80px;
+    margin: 20px auto;
+}
+.portfolio p{
+    text-align: center;
+    color: #3c4761;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.portfolio-tabs{
+    margin: 35px 0px 0px 0px;
+    text-align: center;
+}
+
+.portfolio-tabs ul li{
+    display: inline-block;
+    margin: 0px 3px;
+}
+.portfolio-tabs ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #3c4761;
+    background-color: #ebc985;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.portfolio-tabs ul li a:hover{
+    background-color: white;
+}
+
+.portfolio-tabs ul li .active{
+    background: white !important;
+    
+}
+
+
+.portfolio-wrap{
+    margin-top: 50px;
+    
+    
+}
+
+.portfolio-wrap::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.portfolio-item{
+    width: 50%;
+    float: left;
+}
+
+.portfolio-item img{
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+.portfolio-item p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 20px 0px 50px 0px;
+    font-weight: 600;
+}
+
+.buttton-wrap{
+    text-align: center;
+}
+
+.buttton-wrap a{
+    display: inline-block;
+   padding: 20px 80px;
+   background-color: #17c2a4;
+   color: white;
+   text-transform: uppercase;
+   font-weight: 600;
+   border-radius: 5px;
+   margin-top: 30px;
+   border-bottom: 4px solid #14a58c;
+   font-size: 18px;
+}
+
+/* portfolio stop here */
+
+
+/* testimonial start here */
+.testimonial{
+    padding: 100px 0px;
+    background-color: #d74680;
+}
+
+.testimonial h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.testimonial hr{
+    border: none;
+    height: 4px;
+    background-color: #b73c6d;
+    width: 80px;
+    margin: 20px auto;
+}
+.testimonial p{
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.testimonial-main-wrap::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.testimonial-wrap{
+    width: 50%;
+    float: left;
+    padding: 60px 0px;
+    
+}
+
+.testimonial-wrap::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.testimonial-image{
+    width: 30%;
+    float: left;
+}
+
+
+.testimonial-image img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.testimonial-description{
+    width: 70%;
+    float: left;
+}
+.testimonial-description p{
+    width: 80%;
+    text-align: left;
+    float: left;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 5px 0px 15px 0px;
+    color: #e7e5e5;
+}
+
+.testimonial-description h3{
+    clear: both;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+}
+.testimonial-description h4{
+
+    color:#ffdd99;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 4px 0px;
+}
+
+
+/* testimonial stop here */
+
+
+/* contact form start here */
+.contact{
+    padding: 100px 0px;
+    background-color: #3c5499;
+}
+
+.contact h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.contact hr{
+    border: none;
+    height: 4px;
+    background-color: #273a71;
+    width: 80px;
+    margin: 20px auto;
+}
+.contact p{
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.form-wrap{
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+.input{
+    display: block;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #273a71;
+    color: white;
+    margin: 25px 0px;
+    box-sizing: border-box;
+}
+
+.input::placeholder{
+    color: white;
+}
+
+.name{
+    width: 48%;
+    float: left;
+}
+.email{
+    width: 48%;
+    float: right;
+}
+
+.textarea{
+    height: 150px;
+    resize: none;
+}
+
+.btn-form{
+   display: block;
+   margin: auto;
+   padding: 20px 80px;
+   background-color: #30bae7;
+   color: white;
+   text-transform: uppercase;
+   font-weight: 600;
+   border-radius: 5px;
+   margin-top: 50px;
+   border: none;
+   border-bottom: 4px solid #299ec5;
+   font-size: 18px;
+   
+   
+}
+
+
+
+
+/* contact form stop here */
+
+
+/* footer start here */
+footer{
+    background-color: #344b8e;
+    text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li a{
+    display: block;
+    color: white;
+    padding: 30px 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+footer ul li .active{
+    color: #30bae7 !important;
+}
+/* footer stop here */
