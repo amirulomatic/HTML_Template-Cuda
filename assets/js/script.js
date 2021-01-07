@@ -25,10 +25,11 @@ $(document).ready(function(){
 
         if(bodyWidth > 600){
             $('.menu').show();
+            $('.hamburger-menu a').html('<i class="fas fa-bars"></i>');
         }else{
             $('.menu').hide();
-        }
-    })
+        };
+    });
 
 
 });
