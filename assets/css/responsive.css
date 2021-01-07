@@ -2,13 +2,26 @@
 @media only screen and (max-width: 600px) {
     .logo{
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .menu{
         width: 100%;
         float: left;
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #273A71;
+        padding-bottom: 20px;
     }
+    .hamburger-menu{
+        display: block;
+        position: absolute;
+        top: 65px;
+        right: 10px;
+    }
+    
 
     .menu ul{
         text-align: center;
@@ -963,7 +976,7 @@ footer ul li .active{
 }
 
 .header{
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 
 .header::after{
