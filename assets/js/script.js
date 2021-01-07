@@ -20,6 +20,15 @@ $(document).ready(function(){
     });
 
 
+    $(window).resize(function(){
+        var bodyWidth = $('body').width();
+
+        if(bodyWidth > 600){
+            $('.menu').show();
+        }else{
+            $('.menu').hide();
+        }
+    })
 
 
 });
